@@ -41,7 +41,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.Task1_Tests.pushFront_PushFrontValuesDoubleLinkedList_CheckValues">
+  <component name="RunManager" selected="JUnit.Task1_Tests.remove_RemoveAElement_CheckValue">
     <configuration name="Task1_Tests.insertListAfter_CreateTwoListsAndUnite_CheckHead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,11 +82,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1_Tests.remove_PushFrontEmptyDoubleLinkedList_RemoveElementCheckSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1_Tests.remove_RemoveAElement_CheckValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="remove_PushFrontEmptyDoubleLinkedList_RemoveElementCheckSize" />
+      <option name="METHOD_NAME" value="remove_RemoveAElement_CheckValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task1_Tests.remove_RemoveAElement_CheckValue" />
         <item itemvalue="JUnit.Task1_Tests.pushFront_PushFrontValuesDoubleLinkedList_CheckValues" />
         <item itemvalue="JUnit.Task1_Tests.insertListAfter_CreateTwoListsAndUnite_CheckValues" />
         <item itemvalue="JUnit.Task1_Tests.insertListAfter_CreateTwoListsAndUnite_CheckHead" />
         <item itemvalue="JUnit.Task1_Tests.insertListAfter_CreateTwoListsAndUnite_CheckSize" />
-        <item itemvalue="JUnit.Task1_Tests.remove_PushFrontEmptyDoubleLinkedList_RemoveElementCheckSize" />
       </list>
     </recent_temporary>
   </component>
