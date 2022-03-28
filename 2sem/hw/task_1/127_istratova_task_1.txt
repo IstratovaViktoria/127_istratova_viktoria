@@ -1,3 +1,6 @@
 DoubleLinkedList|11|return dummy == dummy -> return size == 0|create_DoubleLinkedList_EmptyFalse
 DoubleLinkedList|33|--size -> ++size|get_PushBackEmptyDoubleLinkedList_CheckFirst ===
 DoubleLinkedList|62| -> size += list.getSize()|insertListAfter_CheckSize
+DoubleLinkedList|56|list.getTail().setPrev(node.getNext()); -> list.getTail().setNext(node.getNext());|insertListAfter_CreateTwoListsAndUnite_CheckValues
+Node|13|this.next = prev; -> this.next = next;|pushFront_CheckValues
+Node|14|this.prev = next; -> this.prev = prev;|pushFront_CheckValues

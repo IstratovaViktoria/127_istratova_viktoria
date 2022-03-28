@@ -53,7 +53,7 @@ public class DoubleLinkedList<T> {
         if(list.isEmpty())
             return;
         list.getHead().setNext(node);
-        list.getTail().setPrev(node.getNext());
+        list.getTail().setNext(node.getNext());
         node.getNext().setPrev(list.getTail());
         node.setNext(list.getHead());
 

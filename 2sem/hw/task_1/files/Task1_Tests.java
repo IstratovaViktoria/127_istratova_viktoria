@@ -108,4 +108,57 @@ public class Task1_Tests extends Assert{
         list.insertListAfter(list.get(0), list2);
         assertEquals(6, list.getSize());
     }
+    @Test
+    public void insertListAfter_CheckHead(){
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        list.pushFront(1);
+        list.pushFront(2);
+        list.pushFront(3);
+        DoubleLinkedList<Integer> list1 = new DoubleLinkedList<>();
+        list1.pushFront(4);
+        list1.pushFront(5);
+        list1.pushFront(6);
+        list1.insertListAfter(list.get(0), list1);
+        int head = ((Node<Integer>)list.getHead()).getData();
+        assertEquals(1, head);
+    }
+    @Test
+    public void insertListAfter_CreateTwoListsAndUnite_CheckValues() {
+        DoubleLinkedList<Integer> list1 = new DoubleLinkedList<>();
+        list1.pushFront(1);
+        list1.pushFront(2);
+        list1.pushFront(3);
+
+        DoubleLinkedList<Integer> list2 = new DoubleLinkedList<>();
+        list2.pushFront(4);
+        list2.pushFront(5);
+        list2.pushFront(6);
+
+        list1.insertListAfter(list1.get(0), list2);
+
+        assertEquals(1, ((Node<Integer>)list1.get(0)).getData().intValue());
+        assertEquals(4, ((Node<Integer>)list1.get(1)).getData().intValue());
+        assertEquals(5, ((Node<Integer>)list1.get(2)).getData().intValue());
+        assertEquals(6, ((Node<Integer>)list1.get(3)).getData().intValue());
+        assertEquals(2, ((Node<Integer>)list1.get(4)).getData().intValue());
+        assertEquals(3, ((Node<Integer>)list1.get(5)).getData().intValue());
+    }
+    @Test
+    public void pushFront_CheckValues(){
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        list.pushFront(1);
+        list.pushFront(2);
+        list.pushFront(3);
+        list.pushFront(4);
+
+        int num1 = ((Node<Integer>)list.get(0)).getData();
+        assertEquals(1, num1);
+        num1 = ((Node<Integer>)list.get(1)).getData();
+        assertEquals(2, num1);
+        num1 = ((Node<Integer>)list.get(2)).getData();
+        assertEquals(3, num1);
+        num1 = ((Node<Integer>)list.get(3)).getData();
+        assertEquals(4, num1);
+    }
+
 }
