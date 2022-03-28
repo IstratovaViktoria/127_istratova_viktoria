@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09b42f34-4ef5-4802-b0f9-9fe0f10dbf70" name="Changes" comment="" />
+    <list default="true" id="0b98266e-35b5-4e08-8d22-a576e6fa3f2f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,12 +18,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2713Avnem46zC2jJhH5eyEhXZA3" />
+  <component name="ProjectId" id="271mIyuqacGun7ay4Seg699bIQr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,9 +39,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.Task1_Tests.create_DoubleLinkedList_Empty1">
+  <component name="RunManager" selected="JUnit.Task1_Tests.getSize_getSizeFromEmptyDoubleLinkedList_sizeCorrect">
+    <configuration name="Task1_Tests.createDoubleLinkedList_CreateEmptyDoubleLinkedList_EmptyFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
+      <option name="METHOD_NAME" value="createDoubleLinkedList_CreateEmptyDoubleLinkedList_EmptyFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task1_Tests.createDoubleLinkedList_CreateEmptyDoubleLinkedList_EmptyTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
@@ -52,11 +62,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1_Tests.create_DoubleLinkedList_Empty1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1_Tests.create_DoubleLinkedList_EmptyFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="create_DoubleLinkedList_Empty1" />
+      <option name="METHOD_NAME" value="create_DoubleLinkedList_EmptyFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1_Tests.getSize_getSizeFromEmptyDoubleLinkedList_sizeCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
+      <option name="METHOD_NAME" value="getSize_getSizeFromEmptyDoubleLinkedList_sizeCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -64,7 +84,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Task1_Tests.create_DoubleLinkedList_Empty1" />
+        <item itemvalue="JUnit.Task1_Tests.getSize_getSizeFromEmptyDoubleLinkedList_sizeCorrect" />
+        <item itemvalue="JUnit.Task1_Tests.create_DoubleLinkedList_EmptyFalse" />
+        <item itemvalue="JUnit.Task1_Tests.createDoubleLinkedList_CreateEmptyDoubleLinkedList_EmptyFalse" />
         <item itemvalue="JUnit.Task1_Tests.createDoubleLinkedList_CreateEmptyDoubleLinkedList_EmptyTrue" />
       </list>
     </recent_temporary>
@@ -72,11 +94,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="09b42f34-4ef5-4802-b0f9-9fe0f10dbf70" name="Changes" comment="" />
-      <created>1648473626041</created>
+      <changelist id="0b98266e-35b5-4e08-8d22-a576e6fa3f2f" name="Changes" comment="" />
+      <created>1648495893892</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1648473626041</updated>
+      <updated>1648495893892</updated>
     </task>
     <servers />
   </component>

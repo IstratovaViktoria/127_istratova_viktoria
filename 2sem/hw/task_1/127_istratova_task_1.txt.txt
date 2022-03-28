@@ -1,2 +1,0 @@
-<имя файла>|<номер_строки>|<до> -> <после>|<имя_теста>
-DoubleLinkedList|11|return dummy == dummy -> return size == 0|create_DoubleLinkedList_Empty1
