@@ -6,3 +6,19 @@ Node|13|this.next = prev; -> this.next = next;|pushFront_CheckValues
 Node|14|this.prev = next; -> this.prev = prev;|pushFront_CheckValues
 DoubleLinkedList|47|node.getPrev().setPrev(node.getNext()); -> node.getPrev().setNext(node.getNext());|remove_CheckValue
 DoubleLinkedList|48|node.getNext().setNext(node.getPrev()); -> node.getNext().setPrev(node.getPrev());|remove_CheckValue
+DoubleLinkedList|74| -> size += list.getSize();|insertListBefore_CheckSize
+DoubleLinkedList|67|list.getHead().setNext(node.getPrev()); -> list.getHead().setPrev(node.getPrev());|insertListBefore_TryToInsertListBefore_CheckValues
+DoubleLinkedList|68|list.getTail().setPrev(node); -> list.getTail().setNext(node);|insertListBefore_TryToInsertListBefore_CheckValues
+DynamicArray|11|size = 1 -> size = DefaultSize|createArray_CheckSize
+DynamicArray|21|if(newSize > 0) -> if(newSize < 0)|resize_CheckSize
+DynamicArray|27|newSize = size -> size = newSize|resize_CheckSize
+DynamicArray|30|if(index < 0 || index > size) -> if(index < 0 || index >= size)|get_CheckException
+DynamicArray|35|if(index < 0 || index > size) -> if(index < 0 || index >= size)|set_CheckException
+DynamicArray|40|if(index < 0 || index > size) -> if(index < 0 || index >= size)|insert_CheckException
+DynamicArray|15|data = new Object[capacity] -> data = new Object[size]|set_CheckValues
+DynamicArray|42|if(capacity < size) { -> if(capacity <= size) {|insert_CheckNewValue
+DynamicArray|49|data[size] = value -> data[index] = value;|insert_CheckNewValue
+DynamicArray|52|if(capacity < size) { -> if(capacity <= size) {|pushBack_CheckValues
+DynamicArray|56|data[capacity] = value; -> data[size] = value;|pushBack_CheckValues
+DynamicArray|60|if(size < 0) -> if(size <= 0)|popBack_CheckException
+DynamicArray|66|if(index < 0 || index > size) -> if(index < 0 || index >= size)|remove_CheckException
