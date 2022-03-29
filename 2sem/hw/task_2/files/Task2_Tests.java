@@ -22,4 +22,40 @@ public class Task2_Tests extends Assert{
             return first - second;
         }
     }
+    @Test
+    public void bubbleSort_TryToSortDifferentNumbers(){
+        BubbleSort<Integer> sorter = new BubbleSort<>();
+        Integer[] myArray = {2, 1, 3};
+        sorter.sort(myArray, new SomeComparator());
+        assertArrayEquals(new Integer[]{1, 2, 3}, myArray);
+    }
+    @Test
+    public void bubbleSort_TryToSortLongerArrayWithDifferentNumbers(){
+        BubbleSort<Integer> sorter = new BubbleSort<>();
+        Integer[] myArray = {2, 1, 3, 5, 7};
+        sorter.sort(myArray, new SomeComparator());
+        assertArrayEquals(new Integer[]{1, 2, 3, 5, 7}, myArray);
+    }
+    @Test
+    public void bubbleSort_TryToCompareTheSameArrays(){
+        BubbleSort<Integer> sorter = new BubbleSort<>();
+        Integer[] myArray = {2, 2, 2, 2};
+        sorter.sort(myArray, new SomeComparator());
+        assertArrayEquals(new Integer[]{2, 2, 2, 2}, myArray);
+    }
+    @Test
+    public void bubbleSort_TryToCompareSmallArrays(){
+        BubbleSort<Integer> sorter = new BubbleSort<>();
+        Integer[] myArray = {2};
+        sorter.sort(myArray, new SomeComparator());
+        assertArrayEquals(new Integer[]{2}, myArray);
+    }
+    @Test
+    public void insertionSort_TryToCompareTheSameArrays(){
+        InsertionSort<Integer> sorter = new InsertionSort<>();
+        Integer[] myArray = {1, 2, 3};
+        sorter.sort(myArray, new SomeComparator());
+        assertArrayEquals(new Integer[]{1, 2, 3}, myArray);
+    }
+
 }
