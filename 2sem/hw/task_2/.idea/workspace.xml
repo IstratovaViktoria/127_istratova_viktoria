@@ -51,36 +51,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2_Tests.selectionSort_CreateMySelectionSort_TryToCompareLargeArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task2_Tests" />
-      <option name="METHOD_NAME" value="selectionSort_CreateMySelectionSort_TryToCompareLargeArrays" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task2_Tests.selectionSort_CreateMySelectionSort_TryToSortArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task2_Tests" />
-      <option name="METHOD_NAME" value="selectionSort_CreateMySelectionSort_TryToSortArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task2_Tests.selectionSort_CreateMySelectionSort_TryToSortLargeArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task2_Tests" />
-      <option name="METHOD_NAME" value="selectionSort_CreateMySelectionSort_TryToSortLargeArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Task2_Tests.selectionSort_CreateMySelectionSort_TryToSortTwoItemsArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_2" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,13 +61,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task2_Tests.selectionSort_TryToCompareLargeArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task2_Tests" />
+      <option name="METHOD_NAME" value="selectionSort_TryToCompareLargeArrays" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2_Tests.selectionSort_TryToSortLargeArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task2_Tests" />
+      <option name="METHOD_NAME" value="selectionSort_TryToSortLargeArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2_Tests.selectionSort_TryToSortTwoItemsArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task2_Tests" />
+      <option name="METHOD_NAME" value="selectionSort_TryToSortTwoItemsArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Task2_Tests" />
+        <item itemvalue="JUnit.Task2_Tests.selectionSort_TryToSortTwoItemsArray" />
+        <item itemvalue="JUnit.Task2_Tests.selectionSort_TryToCompareLargeArrays" />
+        <item itemvalue="JUnit.Task2_Tests.selectionSort_TryToSortLargeArray" />
         <item itemvalue="JUnit.Task2_Tests.selectionSort_CreateMySelectionSort_TryToSortTwoItemsArray" />
-        <item itemvalue="JUnit.Task2_Tests.selectionSort_CreateMySelectionSort_TryToCompareLargeArrays" />
-        <item itemvalue="JUnit.Task2_Tests.selectionSort_CreateMySelectionSort_TryToSortLargeArray" />
-        <item itemvalue="JUnit.Task2_Tests.selectionSort_CreateMySelectionSort_TryToSortArray" />
       </list>
     </recent_temporary>
   </component>
