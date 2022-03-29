@@ -41,32 +41,12 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.Task2_Tests.selectionSort_CreateMySelectionSort_TryToCompareTheSameArrays">
-    <configuration name="Task2_Tests.bubbleSort_CreateMyBubbleSort_TryToCompareSmallArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task2_Tests" />
-      <option name="METHOD_NAME" value="bubbleSort_CreateMyBubbleSort_TryToCompareSmallArrays" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Task2_Tests.selectionSort_CreateMySelectionSort_TryToSortArray">
     <configuration name="Task2_Tests.insertionSort_CreateMyInsertionSort_TryToCompareSmallArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task2_Tests" />
       <option name="METHOD_NAME" value="insertionSort_CreateMyInsertionSort_TryToCompareSmallArrays" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task2_Tests.insertionSort_CreateMyInsertionSort_TryToCompareTheSameArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task2_Tests" />
-      <option name="METHOD_NAME" value="insertionSort_CreateMyInsertionSort_TryToCompareTheSameArrays" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,6 +62,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task2_Tests.selectionSort_CreateMySelectionSort_TryToCompareSmallArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task2_Tests" />
+      <option name="METHOD_NAME" value="selectionSort_CreateMySelectionSort_TryToCompareSmallArrays" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task2_Tests.selectionSort_CreateMySelectionSort_TryToCompareTheSameArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_2" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,13 +82,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task2_Tests.selectionSort_CreateMySelectionSort_TryToSortArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task2_Tests" />
+      <option name="METHOD_NAME" value="selectionSort_CreateMySelectionSort_TryToSortArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task2_Tests.selectionSort_CreateMySelectionSort_TryToSortArray" />
+        <item itemvalue="JUnit.Task2_Tests.selectionSort_CreateMySelectionSort_TryToCompareSmallArrays" />
         <item itemvalue="JUnit.Task2_Tests.selectionSort_CreateMySelectionSort_TryToCompareTheSameArrays" />
         <item itemvalue="JUnit.Task2_Tests.insertionSort_CreateMyInsertionSort_TryToSortDifferentNumbers" />
         <item itemvalue="JUnit.Task2_Tests.insertionSort_CreateMyInsertionSort_TryToCompareSmallArrays" />
-        <item itemvalue="JUnit.Task2_Tests.insertionSort_CreateMyInsertionSort_TryToCompareTheSameArrays" />
-        <item itemvalue="JUnit.Task2_Tests.bubbleSort_CreateMyBubbleSort_TryToCompareSmallArrays" />
       </list>
     </recent_temporary>
   </component>
