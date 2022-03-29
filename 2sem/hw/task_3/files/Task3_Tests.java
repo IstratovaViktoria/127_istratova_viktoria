@@ -81,7 +81,7 @@ public class Task3_Tests extends Assert{
     @Test
     public void quickSort_TryToSortFourReversedItems(){
         QuickSort<Integer> sorter = new QuickSort<>();
-        Integer[] array = {4, 3, 2, 1};
+        Integer[] array = {5, 4, 3, 2};
         MyComparator<Integer> comparator = new MyComparator<Integer>() {
             @Override
             public int compare(Integer first, Integer second) {
@@ -89,12 +89,12 @@ public class Task3_Tests extends Assert{
             }
         };
         sorter.sort(array, comparator);
-        assertArrayEquals(new Integer[]{1, 2, 3, 4}, array);
+        assertArrayEquals(new Integer[]{2, 3, 4, 5}, array);
     }
     @Test
     public void quickSort_TryToSortWithSimilarItems(){
         QuickSort<Integer> sorter = new QuickSort<>();
-        Integer[] array = {4, 3, 2, 2};
+        Integer[] array = {8, 7, 4, 4};
         MyComparator<Integer> comparator = new MyComparator<Integer>() {
             @Override
             public int compare(Integer first, Integer second) {
@@ -102,7 +102,7 @@ public class Task3_Tests extends Assert{
             }
         };
         sorter.sort(array, comparator);
-        assertArrayEquals(new Integer[]{2, 2, 3, 4}, array);
+        assertArrayEquals(new Integer[]{4, 4, 7, 8}, array);
     }
     @Test
     public void mergeSort_TryToCompareArrays(){
@@ -168,5 +168,57 @@ public class Task3_Tests extends Assert{
         };
         sorter.sort(array, comparator);
         assertArrayEquals(new Integer[]{1, 2, 3}, array);
+    }
+    @Test
+    public void mergeSort_TryToSortThreeReversedItems(){
+        MergeSort<Integer> sorter = new MergeSort<>();
+        Integer[] array = {3, 2, 1};
+        MyComparator<Integer> comparator = new MyComparator<Integer>() {
+            @Override
+            public int compare(Integer first, Integer second) {
+                return first - second;
+            }
+        };
+        sorter.sort(array, comparator);
+        assertArrayEquals(new Integer[]{1, 2, 3}, array);
+    }
+    @Test
+    public void mergeSort_TryToSortLargeArray(){
+        MergeSort<Integer> sorter = new MergeSort<>();
+        Integer[] array = {3, 2, 1, 5, 8, 7, 4, 6};
+        MyComparator<Integer> comparator = new MyComparator<Integer>() {
+            @Override
+            public int compare(Integer first, Integer second) {
+                return first - second;
+            }
+        };
+        sorter.sort(array, comparator);
+        assertArrayEquals(new Integer[]{1, 2, 3, 4, 5, 6, 7, 8}, array);
+    }
+    @Test
+    public void heapSort_TryToCompareTwoItemsArrays(){
+        HeapSort<Integer> sorter = new HeapSort<>();
+        Integer[] array = {1, 2};
+        MyComparator<Integer> comparator = new MyComparator<Integer>() {
+            @Override
+            public int compare(Integer first, Integer second) {
+                return first - second;
+            }
+        };
+        sorter.sort(array, comparator);
+        assertArrayEquals(new Integer[]{1, 2}, array);
+    }
+    @Test
+    public void quickSort_TryToSortAgain(){
+        QuickSort<Integer> sorter = new QuickSort<>();
+        Integer[] array = {4, 2, 1, 0 , 5, 0, 3};
+        MyComparator<Integer> comparator = new MyComparator<Integer>() {
+            @Override
+            public int compare(Integer first, Integer second) {
+                return first - second;
+            }
+        };
+        sorter.sort(array, comparator);
+        assertArrayEquals(new Integer[]{0, 0, 1, 2, 3, 4, 5}, array);
     }
 }
