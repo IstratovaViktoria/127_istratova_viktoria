@@ -38,52 +38,52 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.Task3_Tests.quickSort_CreateNewQuickSort_TryToSortTwoItems">
-    <configuration name="Task3_Tests.heapSort_CreateNewHeapSort_TryToCompareArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Task3_Tests.mergeSort_CreateNewMergeSort_TryToCompareThreeItemsArrays">
+    <configuration name="Task3_Tests.mergeSort_CreateNewMergeSort_TryToCompareArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task3_Tests" />
-      <option name="METHOD_NAME" value="heapSort_CreateNewHeapSort_TryToCompareArrays" />
+      <option name="METHOD_NAME" value="mergeSort_CreateNewMergeSort_TryToCompareArrays" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3_Tests.quickSort_CreateNewQuickSort_TryToCompareArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task3_Tests.mergeSort_CreateNewMergeSort_TryToCompareThreeItemsArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task3_Tests" />
-      <option name="METHOD_NAME" value="quickSort_CreateNewQuickSort_TryToCompareArrays" />
+      <option name="METHOD_NAME" value="mergeSort_CreateNewMergeSort_TryToCompareThreeItemsArrays" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3_Tests.quickSort_CreateNewQuickSort_TryToCompareArraysThreeItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task3_Tests.mergeSort_CreateNewMergeSort_TryToCompareTwoItemsArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task3_Tests" />
-      <option name="METHOD_NAME" value="quickSort_CreateNewQuickSort_TryToCompareArraysThreeItems" />
+      <option name="METHOD_NAME" value="mergeSort_CreateNewMergeSort_TryToCompareTwoItemsArrays" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3_Tests.quickSort_CreateNewQuickSort_TryToCompareArraysTwoItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task3_Tests.quickSort_CreateNewQuickSort_TryToSortFourReversedItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task3_Tests" />
-      <option name="METHOD_NAME" value="quickSort_CreateNewQuickSort_TryToCompareArraysTwoItems" />
+      <option name="METHOD_NAME" value="quickSort_CreateNewQuickSort_TryToSortFourReversedItems" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3_Tests.quickSort_CreateNewQuickSort_TryToSortTwoItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task3_Tests.quickSort_CreateNewQuickSort_TryToSortWithSimilarItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task3_Tests" />
-      <option name="METHOD_NAME" value="quickSort_CreateNewQuickSort_TryToSortTwoItems" />
+      <option name="METHOD_NAME" value="quickSort_CreateNewQuickSort_TryToSortWithSimilarItems" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Task3_Tests.quickSort_CreateNewQuickSort_TryToSortTwoItems" />
-        <item itemvalue="JUnit.Task3_Tests.quickSort_CreateNewQuickSort_TryToCompareArraysThreeItems" />
-        <item itemvalue="JUnit.Task3_Tests.quickSort_CreateNewQuickSort_TryToCompareArraysTwoItems" />
-        <item itemvalue="JUnit.Task3_Tests.quickSort_CreateNewQuickSort_TryToCompareArrays" />
-        <item itemvalue="JUnit.Task3_Tests.heapSort_CreateNewHeapSort_TryToCompareArrays" />
+        <item itemvalue="JUnit.Task3_Tests.mergeSort_CreateNewMergeSort_TryToCompareThreeItemsArrays" />
+        <item itemvalue="JUnit.Task3_Tests.mergeSort_CreateNewMergeSort_TryToCompareTwoItemsArrays" />
+        <item itemvalue="JUnit.Task3_Tests.mergeSort_CreateNewMergeSort_TryToCompareArrays" />
+        <item itemvalue="JUnit.Task3_Tests.quickSort_CreateNewQuickSort_TryToSortWithSimilarItems" />
+        <item itemvalue="JUnit.Task3_Tests.quickSort_CreateNewQuickSort_TryToSortFourReversedItems" />
       </list>
     </recent_temporary>
   </component>
