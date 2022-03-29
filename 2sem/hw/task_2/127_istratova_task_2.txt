@@ -4,5 +4,6 @@ BubbleSort|6|if(comparator.compare(data[i - 1], data[i]) < 0) { -> if(comparator
 InsertionSort|6|while (cur > 0 && comparator.compare(data[cur - 1], data[cur]) <= 0){ -> while (cur > 0 && comparator.compare(data[cur - 1], data[cur]) > 0){|insertionSort_TryToCompareTheSameArrays
 SelectionSort|10|T tmp = data[data.length - sortedSize]; -> T tmp = data[data.length - 1 -sortedSize];|selectionSort_TryToCompareTheSameArrays
 SelectionSort|11|data[data.length - sortedSize] = data[maxInd]; -> data[data.length - 1 - sortedSize] = data[maxInd];|selectionSort_TryToCompareTheSameArrays
-SelectionSort|4|for(int sortedSize = 1; sortedSize < data.length - 1; ++sortedSize) { -> for(int sortedSize = 0; sortedSize < data.length - 1; ++sortedSize) {|selectionSort_CreateMySelectionSort_TryToSortArray
+SelectionSort|4|for(int sortedSize = 1; sortedSize < data.length - 1; ++sortedSize) { -> for(int sortedSize = 0; sortedSize < data.length - 1; ++sortedSize) {|selectionSort_TryToSortArray
 SelectionSort|8|maxInd = sortedSize; -> maxInd = i;|selectionSort_TryToSortArray
+SelectionSort|5|int maxInd = 1; -> int maxInd = 0;|selectionSort_TryToSortTwoItemsArray
