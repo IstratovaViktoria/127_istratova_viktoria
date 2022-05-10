@@ -7,8 +7,8 @@ Node|14|this.prev = next; -> this.prev = prev;|pushFront_CheckValues
 DoubleLinkedList|47|node.getPrev().setPrev(node.getNext()); -> node.getPrev().setNext(node.getNext());|remove_CheckValue
 DoubleLinkedList|48|node.getNext().setNext(node.getPrev()); -> node.getNext().setPrev(node.getPrev());|remove_CheckValue
 DoubleLinkedList|74| -> size += list.getSize();|insertListBefore_CheckSize
-DoubleLinkedList|67|list.getHead().setNext(node.getPrev()); -> list.getHead().setPrev(node.getPrev());|insertListBefore_TryToInsertListBefore_CheckValues
-DoubleLinkedList|68|list.getTail().setPrev(node); -> list.getTail().setNext(node);|insertListBefore_TryToInsertListBefore_CheckValues
+DoubleLinkedList|67|list.getHead().setNext(node.getPrev()); -> list.getHead().setPrev(node.getPrev());|insertListBefore_CheckValues
+DoubleLinkedList|68|list.getTail().setPrev(node); -> list.getTail().setNext(node);|insertListBefore_CheckValues
 DynamicArray|11|size = 1 -> size = DefaultSize|createArray_CheckSize
 DynamicArray|21|if(newSize > 0) -> if(newSize < 0)|resize_CheckSize
 DynamicArray|27|newSize = size -> size = newSize|resize_CheckSize
